@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://codedbytes.github.io/404-Not-Found-Page-Template/">
       Demonstração.
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/kFayiRVDmDjkZMGhzjtU">
       Solução.
     </a>
     <span> | </span>
@@ -41,11 +41,11 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-Feito para o desafio [DevChallenges](https://devchallenges.io/challenges) . O [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) era fazer
+Feito para o desafio [DevChallenges](https://devchallenges.io/challenges) . O [desafio](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) era fazer
 uma aplicação para concluir as Stories acima
 
 
 ## Contato
 
 - GitHub [@CodedBytes](https://github.com/CodedBytes/)
-- Discord :
+- Discord : DJ.Next#1649
