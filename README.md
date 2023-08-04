@@ -42,7 +42,7 @@
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 Feito para o desafio [DevChallenges](https://devchallenges.io/challenges) . O [desafio](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) era fazer
-uma aplicação para concluir as Stories acima
+uma aplicação para concluir as Stories citadas no link para criação de uma pagina 404.
 
 
 ## Contato
