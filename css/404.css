@@ -1,0 +1,142 @@
+/* Import da font usada. */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 15px 2%;
+    box-sizing: border-box;
+}
+
+header span{
+    font-family: Inconsolata;
+    font-size: 20px;
+}
+
+section.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+section.main > .img-404{
+    background-image: url("../img/Scarecrow.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 400px;
+}
+
+/* Certifica de manter em coluna não imporata o que aconteça*/
+section.main .information{
+    flex-direction: column;
+    width: 470px;    
+}
+
+
+section.main .information > h1{
+    font-family: Space Mono;
+    font-weight: 700;
+    font-size: 50px;
+    width: 460px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+section.main .information > p{
+    font-family: Space Mono;
+    font-weight: 400;
+    font-size: 21px;
+    margin: 27px;
+    width: 340px;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+section.main .information > button{
+    width: 216px;
+    color: aliceblue;
+    font-family: Space Mono;
+    font-size: 16px;
+    height: 68px;
+    cursor: pointer;
+    border: 2px solid rgb(63, 63, 63);
+    background-color: rgb(39, 39, 39);
+    transition: 0.1s ease-in;
+}
+section.main .information > button:hover{
+    background-color: rgb(15, 15, 15);
+    transition: 0.1s ease-out;
+}
+section.main .information > button:active{
+    background-color: rgb(61, 61, 61);
+}
+
+section.footer{
+    position: absolute;
+    bottom: 0px;
+    font-family: Montserrat;
+    color: #BDBDBD;
+    margin-top: 50px;
+    margin-bottom: -15px;/* Corrigindo margin global.*/
+    text-align: center;
+}
+
+/* Monitores maiores que 1330x768 ~ 1336x768 */
+@media screen and (min-width: 1380px) {
+    section.main {
+        margin-top: 8%;
+    }
+}
+
+/* Mobile - Normal*/
+@media screen and (min-width: 300px) {
+    section.footer{
+        position: relative;
+        bottom: 0;
+        top: 0;
+        font-size: 13px;
+    }
+
+    section.main .information > h1{
+        font-size: 35px;
+        width: 300px;
+    }
+    
+    section.main .information > p{
+        font-size: 20px;
+        margin: 20px;
+        margin-left: 5px;/* Corrigindo margem do desktop */
+        width: 290px;
+    }
+}
+
+/* Ajuste para tablets 768p ~ */
+@media screen and (max-width: 820px) and (min-height: 1024px) {
+    section.main > .img-404{
+        background-image: url("../img/Scarecrow.png");
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    section.main .information{
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;   
+    }
+
+    section.footer{
+        position: relative;
+        bottom: 0;
+        top: 0;
+        margin-top: 200px;
+        font-size: 13px;
+    }
+}
